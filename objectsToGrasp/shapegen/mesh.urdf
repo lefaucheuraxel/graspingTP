@@ -1,0 +1,23 @@
+<robot name="mesh">
+	<link name="link1">
+		<collision>
+			<origin xyz="0 0 0" rpy="-1.5482452248555194 0.0 -1.649976254201296" />
+			<geometry>
+				<mesh filename="mesh.stl"/>
+			</geometry>
+		</collision>
+
+		<visual>
+			<origin xyz="0 0 0" rpy="-1.5482452248555194 0.0 -1.649976254201296" />
+			<geometry>
+				<mesh filename="mesh.stl"/>
+			</geometry>
+		</visual>
+
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<inertia ixx="5.6512e-06" ixy="0.0" ixz="-0.0" iyy="5.0595e-06" iyz="-0.0" izz="1.9871e-06" />
+			<mass value="0.023170381200848692" />
+		</inertial>
+	</link>
+</robot>

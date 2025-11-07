@@ -1,0 +1,29 @@
+<robot name="shapegen">
+    <link name="link1">
+        <collision>
+            <origin xyz="0 0 1" rpy="0 0 0"/>
+            <geometry>
+              <mesh filename="shapegen.stl"/>
+            </geometry>
+        </collision>
+
+        <visual>
+          <origin xyz="0 0 1" rpy="0 0 0"/>
+          <geometry>
+            <mesh filename="shapegen.stl"/>
+          </geometry>
+        </visual>
+
+        <inertial>
+          <origin xyz="0 0 1" rpy="0 0 0"/>
+          <mass value="1625.2303343127626"/>
+          <inertia
+              ixx="321.91023"
+              ixy="18.48951"
+              ixz="-5.11025"
+              iyy="373.74065"
+              iyz="4.33329"
+              izz="424.63456"/>
+          </inertial>
+    </link>
+</robot>
